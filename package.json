@@ -1,0 +1,17 @@
+{
+  "name": "life_dashboard",
+  "version": "1.0.0",
+  "description": "A personal organizational dashboard to manage work projects, ML learning, bodybuilding prep, finances, and daily planning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./static/tailwind_input.css -o ./static/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+}

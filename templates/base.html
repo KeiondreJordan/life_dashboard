@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Life Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Life Dashboard</h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/work">Work Projects</a></li>
+            <li><a href="/ml">ML & Data Engineering</a></li>
+            <li><a href="/bodybuilding">Bodybuilding Prep</a></li>
+            <li><a href="/finance">Finance & Real Estate</a></li>
+            <li><a href="/planner">Daily Planner</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
