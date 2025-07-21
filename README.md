@@ -24,3 +24,4 @@ brew install node (on Mac via Homebrew)
 - Add database CRUD functionality
 - User authentication
 - Calendar/Gantt integrations
+# life_dashboard
